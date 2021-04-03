@@ -1,6 +1,7 @@
 import React from "react";
 import { render } from "react-dom";
+import ItWorks from "./components/ItWorks";
 render(
-    <h1>It works!</h1>,
+    <ItWorks />,
     document.getElementById('app')
 );
